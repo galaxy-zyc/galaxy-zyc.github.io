@@ -60,7 +60,6 @@
   byId("profile-name").textContent = profile.name;
   byId("profile-role").textContent = profile.role;
   byId("profile-institution").textContent = profile.institution;
-  byId("profile-institution").href = profile.institutionUrl;
   byId("profile-parent").textContent = profile.parentInstitution;
   byId("footer-name").textContent = profile.name;
   for (const paragraph of profile.bio) {

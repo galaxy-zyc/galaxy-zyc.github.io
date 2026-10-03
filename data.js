@@ -10,9 +10,8 @@ window.HOMEPAGE_DATA = {
   profile: {
     name: "Yuanchang Zhou",
     role: "PhD Student",
-    institution: "Institute of Computing Technology",
-    parentInstitution: "Chinese Academy of Sciences",
-    institutionUrl: "https://english.ict.cas.cn/",
+    institution: "University of Chinese Academy of Sciences",
+    parentInstitution: "Institute of Computing Technology, CAS",
     // Personal portrait
     photo: "assets/profile.png",
     email: "zhouyuanchang23s@ict.ac.cn",
