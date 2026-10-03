@@ -55,7 +55,7 @@
     byId("profile-links").append(placeholder);
   };
 
-  document.title = `${profile.name} | AI for Science & HPC`;
+  document.title = profile.name;
   document.querySelector('meta[name="description"]').content = `${profile.name}, ${profile.role}, ${profile.institution}, ${profile.parentInstitution}. Research in AI for Science, machine learning interatomic potentials, and high-performance computing.`;
   byId("profile-name").textContent = profile.name;
   byId("profile-role").textContent = profile.role;
